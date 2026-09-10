@@ -113,6 +113,7 @@
             lblNome.Size = new Size(40, 15);
             lblNome.TabIndex = 7;
             lblNome.Text = "Nome";
+            lblNome.Click += lblNome_Click;
             // 
             // lblDesconto
             // 
@@ -161,6 +162,7 @@
             btnCalcular.TabIndex = 13;
             btnCalcular.Text = "Calcular";
             btnCalcular.UseVisualStyleBackColor = true;
+            btnCalcular.Click += btnCalcular_Click;
             // 
             // Form1
             // 
