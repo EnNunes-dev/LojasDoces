@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            lblNomeDoces = new Label();
-            textNomeDoce = new TextBox();
+            lblNomeDoce = new Label();
+            txtNomeDoce = new TextBox();
             lblPrecoUnitario = new Label();
             lblIdadeCliente = new Label();
             lblQuantidade = new Label();
@@ -38,28 +38,27 @@
             lblNome = new Label();
             lblDesconto = new Label();
             lblStatus = new Label();
-            textPrecoUnitario = new TextBox();
-            textQuantidade = new TextBox();
-            textIdadeCliente = new TextBox();
+            txtPrecoUnitario = new TextBox();
+            txtQuantidade = new TextBox();
+            txtIdadeCliente = new TextBox();
             btnCalcular = new Button();
             SuspendLayout();
             // 
-            // lblNomeDoces
+            // lblNomeDoce
             // 
-            lblNomeDoces.AutoSize = true;
-            lblNomeDoces.Location = new Point(275, 40);
-            lblNomeDoces.Name = "lblNomeDoces";
-            lblNomeDoces.Size = new Size(70, 15);
-            lblNomeDoces.TabIndex = 0;
-            lblNomeDoces.Text = "Nome Doce";
-            lblNomeDoces.Click += label1_Click;
+            lblNomeDoce.AutoSize = true;
+            lblNomeDoce.Location = new Point(275, 40);
+            lblNomeDoce.Name = "lblNomeDoce";
+            lblNomeDoce.Size = new Size(70, 15);
+            lblNomeDoce.TabIndex = 0;
+            lblNomeDoce.Text = "Nome Doce";
             // 
-            // textNomeDoce
+            // txtNomeDoce
             // 
-            textNomeDoce.Location = new Point(374, 37);
-            textNomeDoce.Name = "textNomeDoce";
-            textNomeDoce.Size = new Size(100, 23);
-            textNomeDoce.TabIndex = 1;
+            txtNomeDoce.Location = new Point(374, 37);
+            txtNomeDoce.Name = "txtNomeDoce";
+            txtNomeDoce.Size = new Size(100, 23);
+            txtNomeDoce.TabIndex = 1;
             // 
             // lblPrecoUnitario
             // 
@@ -69,7 +68,6 @@
             lblPrecoUnitario.Size = new Size(82, 15);
             lblPrecoUnitario.TabIndex = 2;
             lblPrecoUnitario.Text = "Preço Unitário";
-            lblPrecoUnitario.Click += label2_Click;
             // 
             // lblIdadeCliente
             // 
@@ -133,28 +131,27 @@
             lblStatus.Size = new Size(39, 15);
             lblStatus.TabIndex = 9;
             lblStatus.Text = "Status";
-            lblStatus.Click += lblStatus_Click;
             // 
-            // textPrecoUnitario
+            // txtPrecoUnitario
             // 
-            textPrecoUnitario.Location = new Point(374, 103);
-            textPrecoUnitario.Name = "textPrecoUnitario";
-            textPrecoUnitario.Size = new Size(100, 23);
-            textPrecoUnitario.TabIndex = 10;
+            txtPrecoUnitario.Location = new Point(374, 103);
+            txtPrecoUnitario.Name = "txtPrecoUnitario";
+            txtPrecoUnitario.Size = new Size(100, 23);
+            txtPrecoUnitario.TabIndex = 10;
             // 
-            // textQuantidade
+            // txtQuantidade
             // 
-            textQuantidade.Location = new Point(374, 173);
-            textQuantidade.Name = "textQuantidade";
-            textQuantidade.Size = new Size(100, 23);
-            textQuantidade.TabIndex = 11;
+            txtQuantidade.Location = new Point(374, 173);
+            txtQuantidade.Name = "txtQuantidade";
+            txtQuantidade.Size = new Size(100, 23);
+            txtQuantidade.TabIndex = 11;
             // 
-            // textIdadeCliente
+            // txtIdadeCliente
             // 
-            textIdadeCliente.Location = new Point(374, 237);
-            textIdadeCliente.Name = "textIdadeCliente";
-            textIdadeCliente.Size = new Size(100, 23);
-            textIdadeCliente.TabIndex = 12;
+            txtIdadeCliente.Location = new Point(374, 237);
+            txtIdadeCliente.Name = "txtIdadeCliente";
+            txtIdadeCliente.Size = new Size(100, 23);
+            txtIdadeCliente.TabIndex = 12;
             // 
             // btnCalcular
             // 
@@ -171,9 +168,9 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(767, 567);
             Controls.Add(btnCalcular);
-            Controls.Add(textIdadeCliente);
-            Controls.Add(textQuantidade);
-            Controls.Add(textPrecoUnitario);
+            Controls.Add(txtIdadeCliente);
+            Controls.Add(txtQuantidade);
+            Controls.Add(txtPrecoUnitario);
             Controls.Add(lblStatus);
             Controls.Add(lblDesconto);
             Controls.Add(lblNome);
@@ -182,19 +179,18 @@
             Controls.Add(lblQuantidade);
             Controls.Add(lblIdadeCliente);
             Controls.Add(lblPrecoUnitario);
-            Controls.Add(textNomeDoce);
-            Controls.Add(lblNomeDoces);
+            Controls.Add(txtNomeDoce);
+            Controls.Add(lblNomeDoce);
             Name = "Form1";
             Text = "Form1";
-            Load += Form1_Load;
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
 
-        private Label lblNomeDoces;
-        private TextBox textNomeDoce;
+        private Label lblNomeDoce;
+        private TextBox txtNomeDoce;
         private Label lblPrecoUnitario;
         private Label lblIdadeCliente;
         private Label lblQuantidade;
@@ -203,9 +199,9 @@
         private Label lblNome;
         private Label lblDesconto;
         private Label lblStatus;
-        private TextBox textPrecoUnitario;
-        private TextBox textQuantidade;
-        private TextBox textIdadeCliente;
+        private TextBox txtPrecoUnitario;
+        private TextBox txtQuantidade;
+        private TextBox txtIdadeCliente;
         private Button btnCalcular;
     }
 }

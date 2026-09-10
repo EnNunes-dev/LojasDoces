@@ -7,28 +7,23 @@ namespace LojasDoces
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void btnCalcular_Click(object sender, EventArgs e)
         {
+            try
+            {
+                // =======================================================================================
+                // INSTANCIA(Criação do projeo na memória)
+                // =======================================================================================
 
-        }
+                Pedido pedido = new Pedido();
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
+                // =======================================================================================
+                //PROPRIEDADE(ATRIBUIÇÃO DE DADOS)
+                //PEGAMOS O TEXT DAS CAIXAS TEXTBOX E CONVERTEMOS
+                // =======================================================================================
+                pedido.NomeDoce = txtNomeDoce.txt;
 
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lblStatus_Click(object sender, EventArgs e)
-        {
+            }
 
         }
     }
